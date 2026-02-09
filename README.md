@@ -89,20 +89,6 @@ pip install huggingface-hub
 huggingface-cli download Qwen/Qwen2.5-1.5B-Instruct-GGUF qwen2.5-1.5b-instruct-q4_k_m.gguf --local-dir ./model --local-dir-use-symlinks False
 ```
 
-### Alternative Models (if needed)
-
-Any GGUF format model compatible with llama.cpp works. Configuration is in `main.py` line 14-20:
-
-```python
-llm = Llama(
-    model_path=os.path.join(os.path.dirname(__file__), "model", "qwen2.5-1.5b-instruct-q4_k_m.gguf"),
-    n_ctx=4096,
-    n_threads=8,
-    temperature=0,
-    verbose=False
-)
-```
-
 ---
 
 ## Step 2: Prepare Input PDF
