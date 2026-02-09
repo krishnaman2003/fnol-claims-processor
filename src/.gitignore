@@ -1,0 +1,5 @@
+# Python cache
+__pycache__/
+*.pyc
+# Model files (too large)
+model/*.gguf

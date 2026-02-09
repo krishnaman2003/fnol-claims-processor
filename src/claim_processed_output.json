@@ -1,0 +1,47 @@
+{
+  "extractedFields": {
+    "Policy Information": {
+      "Policy Number": null,
+      "Policyholder Name": null,
+      "Effective Dates": null
+    },
+    "Incident Information": {
+      "Date": "DATE OF LOSS AND TIME",
+      "Time": null,
+      "Location": null,
+      "Description": null
+    },
+    "Involved Parties": {
+      "Claimant": null,
+      "Third Parties": null,
+      "Contact Details": "PRIMARY E-MAIL ADDRESS, SECONDARY E-MAIL ADDRESS"
+    },
+    "Asset Details": {
+      "Asset Type": null,
+      "Asset ID": null,
+      "Estimated Damage": null
+    },
+    "Other Mandatory Fields": {
+      "Claim Type": null,
+      "Attachments": "OTHER VEHICLE / PROPERTY DAMAGED, OTHER VEHICLE / PROPERTY DAMAGED, OTHER VEHICLE / PROPERTY DAMAGED",
+      "Initial Estimate": null
+    }
+  },
+  "missingFields": [
+    "Policy Number",
+    "Policyholder Name",
+    "Effective Dates",
+    "Time",
+    "Location",
+    "Description",
+    "Claimant",
+    "Third Parties",
+    "Asset Type",
+    "Asset ID",
+    "Estimated Damage",
+    "Claim Type",
+    "Initial Estimate"
+  ],
+  "recommendedRoute": "Manual review",
+  "reasoning": "Mandatory fields missing: Policy Number, Policyholder Name, Effective Dates, Time, Location, Description, Claimant, Third Parties, Asset Type, Asset ID, Estimated Damage, Claim Type, Initial Estimate."
+}
