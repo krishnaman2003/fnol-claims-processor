@@ -23,7 +23,7 @@ A **high-performance, offline-first** First Notice of Loss (FNOL) claims process
 graph TD
     A[PDF Input] --> B[Text Extraction]
     B -->|PyMuPDF| C{Extraction Agent}
-    C -->|Qwen Qwen 2.5 1.5B| D[Extracted JSON]
+    C -->|Qwen 2.5 1.5B| D[Extracted JSON]
     
     D --> E[Normalization & Cleaning]
     E --> F{Specialist Agents}
