@@ -1,6 +1,6 @@
 # FNOL Claims Processing - Local LLM Implementation
 
-A **fast, lightweight, fully offline** First Notice of Loss (FNOL) claims processing system using local LLM (llama.cpp) for intelligent field extraction and automated routing.
+A First Notice of Loss (FNOL) claims processing system using local LLM (llama.cpp) for intelligent field extraction and automated routing.
 
 ## Features
 
